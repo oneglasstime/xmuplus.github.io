@@ -1,0 +1,68 @@
+---
+layout: default
+title: Home
+---
+{% include imgtop.html %}
+<hr style="margin-top: -1rem; border-top: 1px solid #e1e1e1;" />
+
+	<p class="news"><span style="color: #bf616a; font-weight: bold">New!</span> <a href="/the-first-half-of-2016/">The collection of <i>The Economist</i> 2016</a></p>
+
+<style type="text/css">
+	.news {
+		font-size: 14px;
+	}
+</style>
+
+<hr style="margin-top: 1rem; border-top: 1px solid #e1e1e1;" />
+
+
+<h1 class="post-title"><a href="/current-issue/">Current Issue</a></h1>
+<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ site.issue.num_related}}</span>
+
+
+
+
+
+
+<div class="message">
+  <b>{{ site.issue.num_capital }}</b> 
+  <code><b><i class="fa fa-pinterest-p" aria-hidden="true"></i>r</b><i class="fa fa-linkedin-square" aria-hidden="true"></i><b>t</b> <b>Edi</b><i class="fa fa-tumblr-square" aria-hidden="true"></i><b>ion</b></code>: {{ site.issue.desc}} <br/>
+</div>
+
+
+
+<!--img-->
+<div style="position: relative; max-width: 400px; 
+    margin: 0 auto;">
+  <img src="/public/img/the-economist/img_{{ site.newest }}.jpg" />
+</div>
+
+<!--free download-->
+<p><a href="/current-issue/"><i class="fa fa-facebook-square" aria-hidden="true"></i>ree Download</a></p>
+<!--hr-->
+<hr style="margin-top: 2rem; margin-bottom: 2rem;" />
+
+
+<!--Homepage's articles-->
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
+
+    {{ post.excerpt }}
+
+    <!--Jekyll "Read more" Link-->
+    {% if post.excerpt != post.content %}
+        <p><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-facebook-square" aria-hidden="true"></i>ree Download</a></p>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+</div>
+
+{% include pagination.html %}

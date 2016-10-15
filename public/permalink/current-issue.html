@@ -1,0 +1,128 @@
+---
+layout: default   
+title: Current Issue
+permalink: /current-issue/
+---
+<!--表示使用_layout下面的post模版-->
+<h1 style="margin-top: 1em; margin-bottom: 1rem;">Current Issue</h1>
+<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ site.issue.num_related}}</span>
+
+<!--Share-->
+<span class="social-icons">
+    <a href="https://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}&amp;via={{ site.owner.twitter }}"  class="social-icons" target="_blank" title="Share on twitter"> <i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"  class="social-icons" target="_blank" title="Share on Google+"> <i class="fa fa-google-plus"></i></a>
+
+    <a href="http://service.weibo.com/share/share.php?title=最新一期经济学人杂志 ({{ site.newest }}) true pdf, epub, mobi下载 - The Economist&amp;url={{ site.url }}{{ page.url }}&amp;ralateUid=6035048806"  class="social-icons" target="_blank" title="Share on Weibo"> <i class="fa fa-weibo"></i></a>
+
+    <a href="#comments" class="social-icons" title="Comments"><i class="fa fa-comments"></i></a>
+</span>
+
+
+<div class="message">
+	<b>{{ site.issue.num_capital }}</b> 
+	<code><b>Pr</b><i class="fa fa-linkedin-square" aria-hidden="true"></i><b>t</b> <b>Edi</b><i class="fa fa-tumblr-square" aria-hidden="true"></i><b>ion</b></code>: {{ site.issue.desc}}
+</div>
+
+<div style="position: relative; max-width: 400px; 
+    margin: 0 auto;">
+<img src="/public/img/the-economist/img_{{ site.newest }}.jpg" />
+</div>
+
+<!--more-->
+<p class="message" style="margin-top: -.7em;">
+	最新一期经济学人True PDF，请点左上角侧边栏上的Download下载。EPUB和MOBI请看下一篇博文。
+
+    <br/><br/>If you liked my work, click<a title="Thanks for your support!" href="/donate/"><i><code>Dona<i class="fa fa-tumblr-square" aria-hidden="true"></i>e</code></i></a>to buy me a coffee. Enjoy! :smiley:
+</p>
+
+<style>
+.emoji{
+    width:1.2em;
+    height:1.2em;
+    display: inline-block;
+    margin-top: .7em;
+}
+</style>
+
+<hr style="margin-bottom: 2rem; margin-top: 1.5rem; border-top: 1px solid #d4d4d4;" />
+
+<!--Related posts-->
+<div class="related">
+  <h2>Related Posts</h2>
+
+  <!--Related Posts-->
+  <ul class="related-posts">
+    <!--current-->
+    <li>
+      <h3>
+        <a href="/epub-mobi/">EPUB and MOBI Downloads
+        <small>{{ site.issue.num_related }}</small>
+        </a>
+      </h3>
+    </li>
+    <!--related-->
+  </ul>
+</div>
+
+<!--Comments-->
+<div id="comments">
+{% include comments.html %}
+</div>
+
+{% include footer.html %}
+
+
+
+
+<style>
+  
+/*Share Buttons*/
+.social-icons a{
+    text-decoration: none
+    color: #999
+}
+span.social-icons {
+    display: block;
+    padding-top: .5px;
+    padding-bottom: 0px;
+    margin-left:.15rem;
+}
+
+.fa-twitter,
+.fa-google-plus,
+.fa-comments,
+.fa-weibo{
+    padding: 1px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s
+}
+
+.fa-twitter,
+.fa-google-plus,
+.fa-comments,
+.fa-weibo{
+    transition: .5s;
+    color: #9A9A9A;
+    vertical-align: none;
+}
+
+.fa-weibo:hover {
+    color: #268bd2;
+    background-color: #fff
+}
+.fa-twitter:hover {
+    color: #268bd2;
+    background-color: #fff
+}
+.fa-google-plus:hover {
+    color: #268bd2;
+    background-color: #fff
+}
+.fa-comments:hover {
+    color: #268bd2;
+    background-color: #fff
+}
+</style>

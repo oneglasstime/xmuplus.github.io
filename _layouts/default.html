@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+    {% include sidebar.html %}
+
+  <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a class="header-logo-invertocat" title="Welcome!" href="{{ site.baseurl }}/">
+              <!--svg-->
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+              {{ site.title }}
+            </a>
+            
+            <small>&nbsp;{{ site.tagline }}</small>
+
+            <div class="headicons">
+                <small><a href="/about/" rel="me" title="About"><i class="iconm iconm-user"></i></a></small>
+                <small><a href="/books/" rel="me" title="Books"><i class="iconm iconm-quill"></i></a></small>
+                <small><a href="http://weibo.com/u/6035048806" rel="me" title="Sina Weibo"><i class="iconm iconm-sina-weibo"></i></a></small>
+
+            </div>              
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+
+    </div>
+
+
+
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <!-- jQuery FIRST i.e. before qTip (and all other scripts too usually) -->
+    <script type="text/javascript" src="/public/js/jquery/jquery-1.12.4.min.js"></script>
+
+    <script type="text/javascript" src="/public/js/qTips/jquery.qtip.min.js"></script>
+    <script type="text/javascript" src="/public/js/qTips/qtips.io.js"></script>
+    
+    <!-- Photoswipe Core JS file -->
+    <script src="/public/js/photoswipe/photoswipe.min.js"></script><script src="/public/js/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="/public/js/photoswipe/pswp.io.js"></script>
+
+    <script src="/public/js/emojify/emojify.min.js"></script>
+    <script>
+      emojify.run()
+    </script>
+    
+    <!--UAParser-->
+    <script src="/public/js/ua-parser/embed-15.11.15.0.min.js"></script>
+    <script src="/public/js/ua-parser/ua-parser.min.js"></script>
+
+    <!--Duoshuo-->
+    <script type="text/javascript">
+    if (typeof DUOSHUO !== 'undefined')hookDUOSHUO_tp();
+    function hookDUOSHUO_tp(){
+    var _D_post=DUOSHUO.templates.post
+    DUOSHUO.templates.post=function (e,t){
+      var rs=_D_post(e,t);
+      if(e.post.agent&&/^Mozilla/.test(e.post.agent))rs=rs.replace(/<\/div><p>/,show_ua(e.post.agent)+'</div><p>');
+      return rs;
+    }
+    }
+    function show_ua(string){
+    console.log(string);
+    $.ua.set(string);
+    var sua=$.ua;
+    if(sua.os.version=='x86_64')sua.os.version='x64';
+    return '<span class="this_ua browser '+sua.browser.name+'">'+sua.browser.name+' | '+sua.browser.version+'</span>'+'<span class="this_ua platform '+sua.os.name+'">'+sua.os.name+' '+sua.os.version+'</span>';
+    }
+    </script>
+    <!-- END -->
+  </body>
+</html>

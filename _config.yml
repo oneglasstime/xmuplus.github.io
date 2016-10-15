@@ -1,0 +1,62 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:            pretty            #'/:title/'
+relative_permalinks:  false
+
+gems:                 [jekyll-paginate]
+exclude:              [
+                        'node_modules',
+                        'gulpfile.babel.js',
+                        'package.json',
+                        '_sass',
+                        '_js',
+                        '.sass-cache'
+                      ]
+
+# Setup
+title:                "The Economist"
+tagline:              "为你, 千千万万遍"
+description:          '<b>Published since September 1843</b> <i>to take part in "a severe contest between intelligence, which presses forward, and an unworthy, timid ignorance obstructing our progress.</i>"'
+url:                  https://xmuplus.github.io
+baseurl:              ''
+paginate:             2
+paginate_path:        'page-:num'
+excerpt_separator:    <!--more-->
+
+# About/contact
+author:
+  name:               
+  url:                https://xmuplus.github.io
+  email:              
+
+
+#Issues
+newest:               2016.10.15
+issue :
+       num_capital:   Oct 15TH-21ST, 2016
+       num_small:     Oct 15th-21st 2016
+       num_related:   15 Oct 2016
+       size:          15.5
+       desc:          "The debashing of American politics"
+       
+#hr's color
+hr_color:
+         donate: e1e1e1
+         home: d4d4d4
+
+# Comment
+comment:
+    #disqus: 
+    duoshuo:  xmuplusgithub
+
+
+# Google Analytics
+google_analytics: UA-82090560-3
+
+
+
+# Sass
+# sass:
+#   sass_dir:           _sass
+#   style:              compressed

@@ -1,0 +1,42 @@
+/*PhotoSwipe*/
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
+
+/* pswp height-fixed */
+    .monoh{
+      width: 100%;
+      float: left;
+      clear: both;
+      margin-bottom: 0.7rem;
+    }
+    .monoh figure {
+      display: block;
+      float: left;
+      margin: 0 5px 5px 0;
+      height: 120px;
+      width: auto;
+    }
+    .monoh img {
+      width: auto;
+      height: 100%;
+    }
+    .monoh figcaption {
+      display: none;
+    }

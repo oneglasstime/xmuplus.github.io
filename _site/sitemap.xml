@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sitemap [
+  <!ELEMENT urlset (url+)>
+  <!ELEMENT url (loc, lastmod, changefreq, priority?)>
+  <!ELEMENT loc (#PCDATA)>
+  <!ELEMENT lastmod (#PCDATA)>
+  <!ELEMENT changefreq (#PCDATA)>
+  <!ELEMENT priority (#PCDATA)>
+]>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/epub-mobi/</loc>
+      
+        <lastmod>2016-10-14T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/10/08/Oct-08th-2016/</loc>
+      
+        <lastmod>2016-10-08T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/10/01/Oct-01st-2016/</loc>
+      
+        <lastmod>2016-10-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/09/24/Sep-24th-2016/</loc>
+      
+        <lastmod>2016-09-24T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/09/17/Sep-17th-2016/</loc>
+      
+        <lastmod>2016-09-17T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/09/10/Sep-10th-2016/</loc>
+      
+        <lastmod>2016-09-10T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/09/03/Sep-03rd-2016/</loc>
+      
+        <lastmod>2016-09-03T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/08/27/Aug-27th-2016/</loc>
+      
+        <lastmod>2016-08-27T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/08/20/Aug-20th-2016/</loc>
+      
+        <lastmod>2016-08-20T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/08/13/Aug-13th-2016/</loc>
+      
+        <lastmod>2016-08-13T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/08/06/Aug-06th-2016/</loc>
+      
+        <lastmod>2016-08-06T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/2016/08/01/hello-world/</loc>
+      
+        <lastmod>2016-08-01T00:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/404.html</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/about/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/books/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/changelog/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/current-issue/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/donate/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/googlemap/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/search</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/the-first-half-of-2016/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/page-2/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/page-3/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/page-4/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/page-5/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://xmuplus.github.io/page-6/</loc>
+      
+        <lastmod>2016-10-16T07:32:54+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+</urlset>

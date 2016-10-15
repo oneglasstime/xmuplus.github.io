@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
+  <span class="post-date"><i class="fa fa-calendar""></i> {{ page.date | date_to_string }}</span>
+
+  {% include meta_info.html %} 
+  {{ content }}
+</div>
+
+
+<!--Related posts-->
+{% if site.related_posts.size > 0 %}
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    <!--current-->
+    <li>
+      <h3>
+        <a href="/current-issue/">Current Issue
+        <small>{{ site.issue.num_related }}</small>
+        </a>
+      </h3>
+    </li>
+    <!--related-->
+    {% for post in site.related_posts limit:2 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
+<!--Comments-->
+<div id="comments">
+{% include comments.html %}
+</div>
+
+<!--footer-->
+{% include footer.html %}
