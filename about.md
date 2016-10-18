@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 <!--sidebar调用这个title: About-->
-
 <style>
 	.page{
     margin-top: 3em;  /*About title*/
@@ -13,7 +12,6 @@ permalink: /about/
     margin-bottom: .5em;  /*About title*/    
   }
 </style>
-
 
 Hello there.
 
@@ -36,7 +34,6 @@ Hope you enjoy&nbsp;! :stuck_out_tongue_closed_eyes:
 </style>
 
 <hr style="margin-bottom: 3em; border-top: 1px solid #fafafa;" />
-
 
 <!--footer-->
 <div class="footer">

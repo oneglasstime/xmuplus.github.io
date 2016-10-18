@@ -4,29 +4,10 @@ title: Books
 permalink: /books/
 ---
 
-<div class="homepic">
-<img src="/public/img/header/img_books.png" />
-</div>
-<hr style="margin-top: -1rem; border-top: 1px solid #e1e1e1;" />
 
+<h2 style="margin-top: 3rem; font-size: 1.8em;">Books I read recently <i title="Hi! I'm Linux." class="fa fa-linux"></i></h2>
 
-<style>
-.homepic{
-    position: relative; max-width: 600px; 
-    margin: 0 auto; margin-bottom: -7px; margin-top: -1.95rem;
-    background-color: #eee;
-}
-</style>
-
-
-
-<h2 style="margin-top: -.5rem;">Books I read recently <i title="Hi! I'm Linux." class="fa fa-linux"></i></h2>
-
-<hr style="margin-top: 1rem; border-top: 1px solid #e1e1e1;" />
-
-
-
-### 2016
+### <span style="color:#4885ed">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">6</span>
 
 * Oct 15 - 《上学记》<span class="author">- 何兆武</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
@@ -52,12 +33,10 @@ permalink: /books/
 span.author{
 	font-size: 13px;
 }
-
 	.fa-star{
 	color: #f4c20d;
 	font-size: 75%;
 	}
-
 	.fa-star-half-o{
 	color: #f4c20d;
 	font-size: 75%;
