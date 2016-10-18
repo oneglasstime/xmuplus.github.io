@@ -5,7 +5,7 @@ permalink: /books/
 ---
 
 
-<h2 style="margin-top: 3rem; font-size: 1.8em;">Books I read recently <i title="Hi! I'm Linux." class="fa fa-linux"></i></h2>
+<h2 style="margin-top: 3rem; font-size: 1.8em;">Books I read recently <i title="Hi! I'm Linux." class="fa fa-linux" style="font-size: 1em;"></i></h2>
 
 ### <span style="color:#4885ed">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">6</span>
 
