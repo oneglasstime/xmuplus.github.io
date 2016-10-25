@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+title: Books
 permalink: /books/
 ---
 
@@ -7,6 +8,8 @@ permalink: /books/
 <h2 style="margin-top: 3rem; font-size: 1.8em;">Books I read recently <i title="Hi! I'm Linux." class="fa fa-linux" style="font-size: 1em;"></i></h2>
 
 ### <span style="color:#4885ed">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">6</span>
+
+* Oct 25 - 《剑桥中国史》(隋唐)<span class="author">- Vol.3: 589–906 AD</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
 * Oct 15 - 《上学记》<span class="author">- 何兆武</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
