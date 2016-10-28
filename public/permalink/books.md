@@ -9,9 +9,9 @@ permalink: /books/
 
 ### <span style="color:#4885ed">2</span><span style="color:#db3236">0</span><span style="color:#3cba54">1</span><span style="color:#4885ed">6</span>
 
-* Oct 25 - 《剑桥中国史》(隋唐)<span class="author">- Vol.3: 589–906 AD</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+* Oct 25 - 《剑桥中国史》隋唐 <span class="author">- Vol.3: 589–906 AD</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
-* Oct 15 - 《上学记》<span class="author">- 何兆武</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+* Oct 15 - 《上学记》<span class="author">- 何兆武</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 * Oct 14 - 《看见》<span class="author">- 柴静</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
